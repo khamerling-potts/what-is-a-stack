@@ -54,6 +54,10 @@ class Stack {
 
 if (require.main === module) {
   // add your own tests in here
+  const ourstack = new Stack();
+  ourstack.stack = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  //console.log(ourstack.search(9));
+  ourstack.print();
 }
 
 module.exports = Stack;
